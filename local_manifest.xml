@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote name="excaliburXD"
+                fetch="https://github.com/excaliburXD" />
+
+        <remote name="pixel"
+                fetch="https://github.com/PixelExperience" />    
+    
+        <project path="device/infinix/note10pro" name="device_tree_android_infinix_X695C" remote="excaliburXD" revision="nad-11" clone-depth="1" />
+        <project path="vendor/infinix/note10pro" name="android_vendor_infinix_note10pro" remote="excaliburXD" revision="lineage-17.1" clone-depth="1" />
+
+        <project path="vendor/mediatek/ims" name="vendor_ims_mtk" remote="excaliburXD" revision="Master" clone-depth="1" />
+        <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="pixel" revision="eleven" clone-depth="1" />
+        <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource" remote="pixel" revision="eleven" clone-depth="1" />
+
+</manifest>
