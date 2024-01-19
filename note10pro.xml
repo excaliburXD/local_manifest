@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <remote name="vendor"
+            fetch="https://github.com"
+            revision="lineage-17.1" />
+	
+    <remote name="device"
+            fetch="https://github.com"
+            revision="nad-11"/>
+
+    <remote name="ims"
+            fetch="https://github.com"
+            revision="Master"/>
+
+    <!--Device Trees-->
+    <project path="device/infinix/note10pro" name="excaliburXD/note10pro" remote="device" />
+
+    <!--Mediatek Ims-->
+    <project path="device/mediatek/ims" name="excaliburXD/vendor_mediatek_ims" remote="ims" />
+
+    <!-- Vendor folders -->
+    <project path="vendor/infinix/note10pro" name="excaliburXD/vendor_infinix_note10pro" remote="vendor" />
+</manifest>
